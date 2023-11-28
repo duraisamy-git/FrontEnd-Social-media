@@ -54,9 +54,7 @@ const Submit = async (e)=>{
             <input type="number" placeholder="contactNo"  value={contactno}
             onChange={(e)=>setContactNo(e.target.value)} 
             />
-            <input type="file" id="file" 
-            onChange={(e)=>(e.target.files[0])} 
-            />
+           
             
             <button type="submit" className="btn" onClick={Submit}>Signup</button>
             <p>Do you have an account? <a href="/login">Login</a></p>
